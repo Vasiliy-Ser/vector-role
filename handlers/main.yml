@@ -1,11 +1,11 @@
 ---
-- name: Restart vector service
+- name: restart vector service
   ansible.builtin.systemd:
     name: vector
     state: restarted
 
 # Restart the Vector service after installation and configuration
-- name: Restart vector service
+- name: restart vector service
   ansible.builtin.systemd:
     name: vector
     state: restarted
